@@ -432,14 +432,22 @@
     <!-- #region modal -->
     <div class="modal-overlay">
         <div class="modal">
-            <form>
-                <p>Leave your contacts and we will call you back</p>
+            <form class="form-modal">
+                <p class="form-modal-text">Leave your contacts and we will call you back</p>
+                <label for="name" class="form-modal-label">Name</label>
+                <input type="text" name="name" id="name" class="form-modal-input">
+
+                <label for="phone" class="form-modal-label">Phone</label>
+                <input type="tel" name="phone" id="phone" class="form-modal-input">
+
+                <label for="email" class="form-modal-label">Email</label>
+                <input type="email" name="email" id="email" class="form-modal-input">
+
+                <label class="form-modal-label">Comment</label>
+                <textarea placeholder="Text input" class="form-modal-textarea"></textarea>
+
                 <input type="text">
-                <input type="text">
-                <input type="text">
-                <input type="text">
-                <input type="text">
-                <button>Send</button>
+                <button type="submit" class="form-modal-button">Send</button>
             </form>
         </div>
     </div>

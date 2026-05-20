@@ -101,6 +101,7 @@
 }
 
 .subscribe-button {
+  cursor: pointer;
   padding: 8px 24px;
   height: 40px;
   display: flex;
